@@ -105,14 +105,71 @@ int main()
     ifstream myfile ("registrants.txt");
     if (myfile.is_open())
     {
-        while (getLine (myfile, line))
+        while (getLine (myfile, registrants))
         {
-            cout << line << '\n';
+            cout << registrants << '\n';
         }
         myfile.close()
     }
     else cout << "Unable to open file";
     return 0;
+    if (myfile.is_open())
+    {
+        while getLine (myfile, white))
+        {
+            cout << white << '\n';
+        }
+        myfile.close()
+    }
+    if (myfile.is_open())
+    {
+        while getLine (myLine, yellow))
+        {
+            cout << yellow << '\n\;'
+        }
+        myfile.close()
+    }
+    if (myfile.is_open())
+    {
+        while getLine (myLine, green))
+        {
+            cout << green << '\n\;'
+        }
+        myfile.close()
+    }
+    if (myfile.is_open())
+    {
+        while getLine (myLine, orange))
+        {
+            cout << orange << '\n\;'
+        }
+        myfile.close()
+    }
+    if (myfile.is_open())
+    {
+        while getLine (myLine, blue))
+        {
+            cout << blue << '\n\;'
+        }
+        myfile.close()
+    }
+    if (myfile.is_open())
+    {
+        while getLine (myLine, lilac))
+        {
+            cout << lilac << '\n\;'
+        }
+        myfile.close()
+    }
+    if (myfile.is_open())
+    {
+        while getLine (myLine, red))
+        {
+            cout << red << '\n\;'
+        }
+        myfile.close()
+    }
+
 }
 
 
