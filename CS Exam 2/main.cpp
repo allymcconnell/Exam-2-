@@ -10,6 +10,7 @@
 using namespace std;
 #include <string>
 #include <fstream>
+#include <vector>
 
 class Runner
 {
@@ -17,6 +18,16 @@ private:
     string firstname;
     string lastname;
     int pace;
+    string runner;
+    void vector <registrants>;
+    vector <registrants>;
+    vector <white>;
+    vector <yellow>;
+    vector <green>;
+    vector <orange>;
+    vector <blue>;
+    vector <lilac>;
+    vector <red>;
     
 public:
     string get_firstname();
@@ -24,7 +35,7 @@ public:
     int get_pace();
 };
 
-Runner::get_firstname()
+Runner::get_firstname();
 {
     return firstname;
 }
@@ -36,6 +47,57 @@ Runner::get_pace();
 {
     return pace;
 }
+Runner::runner(firstname, lastname, pace)
+{
+    return runner;
+}
+cout << "Ascending order of pace: " << endl;
+sort(pace.end(), pace.begin());
+registrants(pace);
+
+if (pace > 0 || pace <= 360)
+{
+    vector white(pace);
+    cout << "White group: " << endl;
+    cin >> white;
+}
+else if (pace > 360 || pace <= 420)
+{
+    vector yellow(pace);
+    cout << "Yellow group: " << endl;
+    cin >> yellow;
+}
+else if (pace >420 || pace <= 480)
+{
+    vector green(pace);
+    cout << "Green group: " << endl;
+    cin >> green;
+}
+else if(pace > 480 || pace <= 540)
+{
+    vector orange(pace);
+    cout << "Orange group: " << endl;
+    cin >> orange;
+}
+else if (pace > 540 || pace <= 600)
+{
+    vector blue(pace);
+    cout << "Blue group: " << endl;
+    cin >> blue;
+}
+else if (pace > 600 || pace <= 720)
+{
+    vector lilac(pace);
+    cout << "Lilac group: " << endl;
+    cin >> lilac;
+}
+else (pace > 720 || pace <= 1200)
+{
+    vector red(pace);
+    cout << "Red group: " << endl;
+    cin >> red;
+}
+return 0;
 
 int main()
 {
